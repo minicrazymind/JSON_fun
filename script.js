@@ -3,25 +3,62 @@
 let jsonStuff = [
   {
     "name" : "Bulbasaur",
-    "picture_url" : "https://i.imgur.com/XClnjrj.png",
+    "picture_url" : "data/Bulbasaur.png",
     "type" : "Grass, Poison",
     "info" : ["Seed Pokemon", "2\' 04\"", "15.2 lbs"]
   },
   {
     "name" : "Charmander",
-    "picture_url" : "https://i.imgur.com/qERNY4r.png",
+    "picture_url" : "data/Charmander.png",
     "type" : "Fire",
     "info" : ["Lizard Pokemon", "2\' 00\"", "18.7 lbs"]
   },
   {
     "name" : "Squirtle",
-    "picture_url" : "https://i.imgur.com/MUfu0wH.png",
+    "picture_url" : "data/Squirtle.png",
     "type" : "Water",
     "info" : ["Tiny Turtle Pokemon", "1\' 08\"", "19.8 lbs"]
+  },
+  {
+    "name" : "Chikorita",
+    "picture_url" : "data/Chikorita.png",
+    "type" : "Grass",
+    "info" : ["Leaf Pokemon", "2\' 11\"", "14.1 lbs"]
+  },
+  {
+    "name" : "Cyndaquil",
+    "picture_url" : "data/Cyndaquil.png",
+    "type" : "Fire",
+    "info" : ["Fire Mouse Pokemon", "1\' 08\"", "17.4 lbs"]
+  },
+  {
+    "name" : "Totodile",
+    "picture_url" : "data/Totodile.png",
+    "type" : "Water",
+    "info" : ["Big Jaw Pokemon", "2\' 00\"", "20.9 lbs"]
+  },
+  {
+    "name" : "Treecko",
+    "picture_url" : "data/Treecko.png",
+    "type" : "Grass",
+    "info" : ["Wood Gecko Pokemon", "1\' 08\"", "11.0 lbs"]
+  },
+  {
+    "name" : "Torchic",
+    "picture_url" : "data/Torchic.png",
+    "type" : "Fire",
+    "info" : ["Chick Pokemon", "1\' 04\"", "5.5 lbs"]
+  },
+  {
+    "name" : "Mudkip",
+    "picture_url" : "data/Mudkip.png",
+    "type" : "Water",
+    "info" : ["Mud Fish Pokemon", "1\' 04\"", "16.8 lbs"]
   }
+
 ]
 
-printAllToPage();
+printAllToPage(); //This is all that runs
 
 
 function printAllToPage() {
